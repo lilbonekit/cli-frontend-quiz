@@ -4,8 +4,8 @@ A fun interactive quiz for frontend developers.
 
 ## 🚀 Quick Start
 
-Run it directly with **npx** (no need to install):
+Run it directly with **npx**:
 
 ```sh
-npx cli-lilbonekit-quiz
+npx cli-lilbonekit-frontend-quiz
 ```

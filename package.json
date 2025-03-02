@@ -17,7 +17,7 @@
 		"interactive"
 	],
 	"bin": {
-		"cli-lilbonekit-quiz": "./lib/index.js"
+		"cli-lilbonekit-frontend-quiz": "./lib/index.js"
 	},
 	"scripts": {
 		"start": "NODE_OPTIONS='--max-old-space-size=4096' nodemon",
