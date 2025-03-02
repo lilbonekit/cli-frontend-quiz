@@ -3,6 +3,7 @@
 	"version": "1.1.6",
 	"main": "./lib/index.js",
 	"type": "commonjs",
+	"author": "lilbonekit <mykytasydorenko0@gmail.com>",
 	"description": "A CLI quiz game. Run it with npx cli-lilbonekit-frontend-quiz",
 	"repository": "git@github.com:lilbonekit/cli-frontend-quiz.git",
 	"files": [
@@ -24,7 +25,6 @@
 		"build": "tsc -p .",
 		"prepublishOnly": "npm run build"
 	},
-	"author": "",
 	"license": "ISC",
 	"dependencies": {
 		"@clack/prompts": "^0.10.0",
