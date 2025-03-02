@@ -1,0 +1,33 @@
+{
+	"name": "cli-lilbonekit-frontend-quiz",
+	"version": "1.1.4",
+	"main": "./lib/index.js",
+	"type": "commonjs",
+	"description": "A CLI quiz game. Run it with npx cli-lilbonekit-frontend-quiz",
+	"keywords": [
+		"cli",
+		"quiz",
+		"npx",
+		"interactive"
+	],
+	"bin": {
+		"cli-lilbonekit-quiz": "./lib/index.js"
+	},
+	"scripts": {
+		"start": "NODE_OPTIONS='--max-old-space-size=4096' nodemon",
+		"dev": "ts-node src/index.ts",
+		"build": "tsc -p .",
+		"prepublishOnly": "npm run build"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@clack/prompts": "^0.10.0",
+		"nodemon": "^3.1.9",
+		"picocolors": "^1.1.1"
+	},
+	"devDependencies": {
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.2"
+	}
+}
