@@ -1,6 +1,6 @@
 {
 	"name": "cli-lilbonekit-frontend-quiz",
-	"version": "1.1.6",
+	"version": "1.1.7",
 	"main": "./lib/index.js",
 	"type": "commonjs",
 	"author": "lilbonekit <mykytasydorenko0@gmail.com>",
