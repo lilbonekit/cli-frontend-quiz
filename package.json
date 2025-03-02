@@ -4,6 +4,11 @@
 	"main": "./lib/index.js",
 	"type": "commonjs",
 	"description": "A CLI quiz game. Run it with npx cli-lilbonekit-frontend-quiz",
+	"repository": "git@github.com:lilbonekit/cli-frontend-quiz.git",
+	"files": [
+		"lib/**/*",
+		"README.md"
+	],
 	"keywords": [
 		"cli",
 		"quiz",
